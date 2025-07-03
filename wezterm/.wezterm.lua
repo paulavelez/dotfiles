@@ -11,8 +11,9 @@ if wezterm.config_builder then
   end
 
 config.font_size = 22
+config.font = wezterm.font('FiraMono Nerd Font')
 
-config.color_scheme = 'Catppuccin Macchiato'
+config.color_scheme = 'Catppuccin Mocha'
 
 -- and finally, return the configuration to wezterm
 return config
