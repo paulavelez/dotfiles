@@ -13,6 +13,9 @@ if wezterm.config_builder then
 config.font_size = 22
 config.font = wezterm.font('FiraMono Nerd Font')
 
+config.initial_rows = 50
+config.initial_cols = 120
+
 config.color_scheme = 'Catppuccin Mocha'
 
 -- and finally, return the configuration to wezterm
